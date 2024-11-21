@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="page.js">
+        
+    </script>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Panier d'Achat</title>
+     <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Mon Panier d'Achat</h1>
+      </header>
+    
+      <main>
+        <section class="products">
+          <h2>Produits disponibles</h2>
+          <div class="product-list">
+            <div class="product">
+              <h3>Ordinateur</h3>
+              <p>Prix : <span class="price">1000€</span></p>
+              <button class="add-to-cart" data-id="1" data-name="Ordinateur" data-price="1000">Ajouter au panier</button>
+            </div>
+            <div class="product">
+              <h3>Clavier</h3>
+              <p>Prix : <span class="price">50€</span></p>
+              <button class="add-to-cart" data-id="2" data-name="Clavier" data-price="50">Ajouter au panier</button>
+            </div>
+            <div class="product">
+              <h3>Souris</h3>
+              <p>Prix : <span class="price">25€</span></p>
+              <button class="add-to-cart" data-id="3" data-name="Souris" data-price="25">Ajouter au panier</button>
+            </div>
+          </div>
+        </section>
+    
+        <section class="cart">
+          <h2>Votre Panier</h2>
+          <div class="cart-items">
+            <!-- Les éléments du panier s'afficheront ici -->
+          </div>
+          <div class="cart-summary">
+            <p>Total des articles : <span id="total-items">0</span></p>
+            <p>Prix total : <span id="total-price">0€</span></p>
+          </div>
+        </section>
+      </main>
+    
+</body>
+</html>
